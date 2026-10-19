@@ -1,0 +1,4 @@
+interface:
+  display_name: "Alice Brandbook"
+  short_description: "Make any Alice artifact on brand"
+  default_prompt: "Use brandbook-alice to produce or review an Alice artifact — slide, banner, OOH, social post, email or print — against the canonical palette, typography, composition grammar and voice in this package."

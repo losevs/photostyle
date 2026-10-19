@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "YS Text Compact";
+  src: url("../brandbook-alice/assets/fonts/YSTextCompact-VF.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "YS Compressed";
+  src: url("../brandbook-alice/assets/fonts/YSCompressed-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "YS Compressed";
+  src: url("../brandbook-alice/assets/fonts/YSCompressed-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --color-canvas: #dbdfe7;
+  --color-ink: #302b31;
+  --color-muted: #656b77;
+  --color-line: #c8cfd9;
+  --color-surface: #ffffff;
+  --color-accent: #7a55ff;
+  --color-accent-hover: #6845e0;
+  --color-accent-active: #5c3bc8;
+  --color-blue: #5286ff;
+  --color-fill: #302b31;
+  --color-fill-hover: #3d3840;
+  --color-fill-active: #2a252b;
+  --font-sans: "YS Text Compact", Arial, sans-serif;
+}
+
+@utility shadow-card {
+  box-shadow:
+    0 1px 3px rgba(48, 43, 49, 0.04),
+    0 4px 16px rgba(48, 43, 49, 0.04),
+    0 12px 32px rgba(48, 43, 49, 0.03);
+}
+
+@utility shadow-button {
+  box-shadow:
+    0 0 0 0.5px rgba(48, 43, 49, 0.08),
+    0 1px 2px rgba(48, 43, 49, 0.08),
+    0 2px 4px rgba(48, 43, 49, 0.04);
+}
+
+@utility shadow-sheet {
+  box-shadow: 0 -12px 32px rgba(48, 43, 49, 0.08);
+}
+
+html {
+  background: var(--color-canvas);
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  font-weight: 450;
+  font-synthesis: none;
+  font-kerning: normal;
+  font-feature-settings: "kern" 1;
+  font-variation-settings: "wdth" 50;
+  color: var(--color-ink);
+  background: var(--color-canvas);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  background: color-mix(in srgb, #5286ff 28%, white);
+  color: #302b31;
+}
+
+.label-caps {
+  font-family: "YS Compressed", "YS Text Compact", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 16px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-feature-settings: "ss01" 1, "kern" 1;
+  font-variation-settings: normal;
+}
+
+input[type="range"] {
+  height: 1.35rem;
+  cursor: pointer;
+  accent-color: #5286ff;
+}
+
+fieldset {
+  min-inline-size: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

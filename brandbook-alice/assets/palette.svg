@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1284" height="162" viewBox="0 0 1284 162">
+<rect width="1284" height="162" fill="#FFFFFF"/>
+<rect x="0" y="0" width="132" height="132" rx="16" fill="#302B31"/>
+<text x="0" y="145" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#302B31">primary</text>
+<text x="0" y="158" font-family="Arial, sans-serif" font-size="11" fill="#656B77">#302B31</text>
+<rect x="144" y="0" width="132" height="132" rx="16" fill="#656B77"/>
+<text x="144" y="145" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#302B31">secondary</text>
+<text x="144" y="158" font-family="Arial, sans-serif" font-size="11" fill="#656B77">#656B77</text>
+<rect x="288" y="0" width="132" height="132" rx="16" fill="#7A55FF"/>
+<text x="288" y="145" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#302B31">tertiary</text>
+<text x="288" y="158" font-family="Arial, sans-serif" font-size="11" fill="#656B77">#7A55FF</text>
+<rect x="432" y="0" width="132" height="132" rx="16" fill="#5286FF"/>
+<text x="432" y="145" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#302B31">accent-blue</text>
+<text x="432" y="158" font-family="Arial, sans-serif" font-size="11" fill="#656B77">#5286FF</text>
+<rect x="576" y="0" width="132" height="132" rx="16" fill="#DBDFE7"/>
+<text x="576" y="145" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#302B31">neutral</text>
+<text x="576" y="158" font-family="Arial, sans-serif" font-size="11" fill="#656B77">#DBDFE7</text>
+<rect x="720" y="0" width="132" height="132" rx="16" fill="#FFFFFF" stroke="#C8CFD9"/>
+<text x="720" y="145" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#302B31">surface</text>
+<text x="720" y="158" font-family="Arial, sans-serif" font-size="11" fill="#656B77">#FFFFFF</text>
+<rect x="864" y="0" width="132" height="132" rx="16" fill="#C8CFD9"/>
+<text x="864" y="145" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#302B31">border</text>
+<text x="864" y="158" font-family="Arial, sans-serif" font-size="11" fill="#656B77">#C8CFD9</text>
+<rect x="1008" y="0" width="132" height="132" rx="16" fill="#F8604A"/>
+<text x="1008" y="145" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#302B31">error</text>
+<text x="1008" y="158" font-family="Arial, sans-serif" font-size="11" fill="#656B77">#F8604A</text>
+<rect x="1152" y="0" width="132" height="132" rx="16" fill="#1A7A2E"/>
+<text x="1152" y="145" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#302B31">success</text>
+<text x="1152" y="158" font-family="Arial, sans-serif" font-size="11" fill="#656B77">#1A7A2E</text>
+</svg>

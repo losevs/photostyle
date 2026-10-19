@@ -1,0 +1,6 @@
+node_modules
+dist
+.DS_Store
+*.local
+.vite
+brandbook-alice-2026-07-30.zip
